@@ -1,0 +1,25 @@
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: start;
+  align-items: start;
+ 
+  
+}
+
+
+.input-container {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+
+.input-container input,
+.input-container button {
+  margin: 0 5px;
+}

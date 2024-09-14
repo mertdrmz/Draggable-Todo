@@ -1,0 +1,29 @@
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: auto;
+  background-image: url(/src/assets/Adsız\ tasarım.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-container input,
+.input-container button {
+  margin: 0 5px;
+}
